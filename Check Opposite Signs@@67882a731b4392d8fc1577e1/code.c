@@ -4,7 +4,7 @@ int main() {
     int x, y;
     printf("");
     scanf("%d %d", &x, &y);
-    if ((x ^ y) < 0) {
+    if ((x ^ y) <= 0) {
         printf("True \n");
     } else {
         printf("False \n");
