@@ -4,9 +4,9 @@ int main() {
     int num1, num2;
 
     // Input two numbers from the user
-    printf("Enter the first number: ");
+    printf("");
     scanf("%d", &num1);
-    printf("Enter the second number: ");
+    printf("");
     scanf("%d", &num2);
 
     // Check if the first number is greater than the second
