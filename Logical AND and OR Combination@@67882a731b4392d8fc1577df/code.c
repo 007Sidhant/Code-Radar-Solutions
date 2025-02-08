@@ -7,10 +7,9 @@ int main() {
     if (a>0 && b<0){
         printf("True \n");
     } if else(a=0 && b==0){
-        print("True \n");
+        printf("True \n");
     } else(){
         printf("False \n")
     }
-    
     return 0;
 }
