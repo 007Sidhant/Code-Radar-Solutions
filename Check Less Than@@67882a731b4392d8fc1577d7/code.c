@@ -6,7 +6,7 @@ int main(){
 
     if (a<b){
         printf("True /n" a,b);
-        }
+    }
     else {
         printf("False /n" a,b);
     }
