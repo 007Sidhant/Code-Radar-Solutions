@@ -23,10 +23,6 @@ int main() {
                 printf("");
                 return 1;
             }
-            break;
-        default:
-            printf("");
-            return 1;
     }
 
 
