@@ -2,9 +2,11 @@
 
 int main() {
     char a;
-    int num1, num2;
-    printf();
-    scanf("%d %d %c", &num1,&num2,&a);
+    int num1, num2, result;
+
+    // Prompt the user for input
+    printf("");
+    scanf("%d %d %c", &num1, &num2, &a);
 
     switch (a) {
         case '+':
@@ -20,12 +22,17 @@ int main() {
             if (num2 != 0)
                 result = num1 / num2;
             else {
-                printf("");
+                printf("Error\n");
                 return 1;
             }
+            break;
+        default:
+            printf("Error\n");
+            return 1;
     }
 
-
+    // Print the result
+    printf("%d\n", result);
 
     return 0;
 }
