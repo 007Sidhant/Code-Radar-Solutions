@@ -29,7 +29,7 @@ int main() {
             return 1;
     }
 
-    printf("%.2lf\n", result);
+
 
     return 0;
 }
