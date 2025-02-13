@@ -1,16 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    char operator;
-    double num1, num2, result;
+    char a;
+    int num1, num2, result;
+    printf();
+    scanf("%d %d %c", &num1,&num2,&a);
 
-    printf("Enter an operator (+, -, *, /): ");
-    scanf("%c", &operator);
-
-    printf("Enter two operands: ");
-    scanf("%lf %lf", &num1, &num2);
-
-    switch (operator) {
+    switch (a) {
         case '+':
             result = num1 + num2;
             break;
@@ -24,16 +20,16 @@ int main() {
             if (num2 != 0)
                 result = num1 / num2;
             else {
-                printf("Error! Division by zero is not allowed.\n");
+                printf("");
                 return 1;
             }
             break;
         default:
-            printf("Error! Operator is not correct.\n");
+            printf("");
             return 1;
     }
 
-    printf("Result: %.2lf\n", result);
+    printf("%.2lf\n", result);
 
     return 0;
 }
