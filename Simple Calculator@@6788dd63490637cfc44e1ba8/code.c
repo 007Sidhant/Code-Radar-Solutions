@@ -2,7 +2,7 @@
 
 int main() {
     char a;
-    int num1, num2, result;
+    int num1, num2;
     printf();
     scanf("%d %d %c", &num1,&num2,&a);
 
