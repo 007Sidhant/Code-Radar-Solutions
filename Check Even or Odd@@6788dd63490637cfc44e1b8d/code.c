@@ -1,11 +1,10 @@
-#include <stdio.h>
+#include<Stdio.h>
 int main(){
     int a;
-    printf("");
-    scanf("%d", &a);
-    if (a%2==0){
+    scanf("%d",%a);
+    if(a%2==0){
         printf("Even");
-    }else {
+    }else{
         printf("Odd");
     }
     return 0;
