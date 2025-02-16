@@ -2,11 +2,11 @@
 int main(){
     int a;
     printf("");
-    scanf("%d", %a);
-    if(a%2=0){
-        printf("Even");
+    scanf("%d", &a);
+    if(a%2==0){
+        printf("Even\n");
     }else{
-        printf("Odd");
+        printf("Odd\n");
     }
     return 0;
 }
